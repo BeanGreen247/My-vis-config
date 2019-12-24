@@ -1,0 +1,37 @@
+##Refresh rate of the visualizers. A really high refresh rate may cause screen tearing. Default is 20.
+visualizer.fps=59
+
+##Currently available ones are "mpd", "pulse" and "alsa". Defaults to "mpd".
+#audio.sources=pulse
+
+##command pacmd list-sinks  | grep -e 'name:'  -e 'index'
+#audio.pulse.source=0
+
+##Defaults to "/tmp/mpd.fifo"
+#mpd.fifo.path=/tmp/mpd.fifo
+
+audio.stereo.enabled=true
+#visualizer.rotation.secs=10
+#audio.sampling.frequency=44100
+#audio.low.cutoff.frequency=30
+#audio.high.cutoff.frequency=22050
+visualizer.scaling.multiplier=0.5
+#visualizers=spectrum,ellipse,lorenz
+visualizer.spectrum.character=~
+visualizer.spectrum.bar.width=1
+visualizer.spectrum.bar.spacing=1
+visualizer.spectrum.smoothing.mode=sgs
+visualizer.spectrum.falloff.mode=fill
+#visualizer.spectrum.falloff.weight=0.95
+#visualizer.spectrum.top.margin=0.30
+#visualizer.spectrum.bottom.margin=0.10
+#visualizer.spectrum.right.margin=0.10
+#visualizer.spectrum.left.margin=0.10
+#visualizer.spectrum.reversed=false
+visualizer.sgs.smoothing.points=10
+visualizer.sgs.smoothing.passes=100
+#visualizer.ellipse.character=#
+#visualizer.ellipse.radius=2
+#visualizer.lorenz.character=#
+#colors.override.terminal=false
+colors.scheme=bg247
